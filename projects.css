@@ -1,0 +1,59 @@
+table{
+    border-collapse: separate;
+    border-spacing: 0 .25rem;
+    font-size: 2rem;
+    margin: 0 auto;
+}
+
+thead tr th{
+    color: var(--secondary);
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+    border-style: solid none;
+    text-align: left;
+    font-weight: bold;
+    font-size: 200%;
+    padding: 1rem;
+}
+
+tr:hover{
+    color: var(--accent);
+    border-color: var(--accent);
+}
+
+tr{
+    border-color: white;
+    border-style: solid none;
+    transition: color .1s ease-out;
+}
+
+th:first-child{
+    border-left-style: solid;
+    border-top-left-radius: 2vmin;
+    border-bottom-left-radius: 2vmin;
+}
+
+th:last-child{
+    border-right-style: solid;
+    border-top-right-radius: 2vmin;
+    border-bottom-right-radius: 2vmin;
+}
+
+td{
+    border: solid 1px;
+    border-style: solid none;
+    background-color: var(--bg-dark);
+    padding: 1rem;
+}
+
+td:first-child{
+    border-left-style: solid;
+    border-top-left-radius: 1vmin;
+    border-bottom-left-radius: 1vmin;
+}
+
+td:last-child{
+    border-right-style: solid;
+    border-top-right-radius: 1vmin;
+    border-bottom-right-radius: 1vmin;
+}

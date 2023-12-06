@@ -1,0 +1,15 @@
+:root{
+    --bg: #1C1D26;
+    --bg-dark: #0D0C0C;
+    --text: white;
+    --primary: #5E608C;
+    --secondary: #7d80bb;
+    --accent: #A65369;
+}
+
+body{
+    background:var(--bg);
+    color: var(--text);
+    font-family: "Helvetica";
+}
+
